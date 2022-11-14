@@ -169,8 +169,92 @@ button{
 .tovar{
     width: 354px;
     height: 454px;
-    background: #DBDBDB;
+    background-image: url("image 3.jpg");
     margin-top: 20px;
+}
+
+.sail-img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 30px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 133px;
+    height: 35px;
+    left: 221px;
+    top: 20px;
+    
+    background: #4FBCAF;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.sale{
+    position: relative;
+    width: 97px;
+    height: 24px;
+    left: 247px;
+    top: 5px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.name{
+    position: relative;
+    padding: 5px 10px;
+    height: 35px;
+    left: 0px;
+    top: 270px;
+    width: max-content;
+    
+    background: #4FBCAF;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.articul{
+    position: relative;
+    width: 103px;
+    height: 24px;
+    left: 241px;
+    top: 250px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .stranizi{
