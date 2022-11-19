@@ -1,8 +1,9 @@
 body{
-    width: 1200px;
+    max-width: 1200px;
     height: 3862px;
     background-color: #FDFFEC;
     margin: 0 auto;
+    height: 100%;
 }
 
 header{
@@ -75,6 +76,7 @@ header{
     height: 322px;
     left: 15px;
     top: 55px;
+    margin-right: 5px;
     
     font-family: 'Montserrat';
     font-style: normal;
@@ -123,22 +125,23 @@ button{
 }
 
 .main-photo{
-    position: absolute;
+    position: relative;
     width: 546px;
     height: 470px;
-    left: 700px;
-    top: 159px;
+    left: 640px;
+    top: -380px;
     z-index: 1;
 }
 
 .shadow-main{
-    position: absolute;
+    position: relative;
     width: 546px;
     height: 470px;
-    left: 720px;
-    top: 182px;
+    left: 660px;
+    top: -825px;
     background: rgba(79, 188, 175, 0.5);
     z-index: 0;
+    margin-bottom: -825px;
 }
 
 .cat-title{
@@ -169,8 +172,11 @@ button{
 .tovar{
     width: 354px;
     height: 454px;
-    background-image: url("image 3.jpg");
     margin-top: 20px;
+}
+
+.tovar-bg{
+    position: absolute;
 }
 
 .sail-img{
@@ -331,16 +337,17 @@ input{
 }
 
 footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 141px;
     left: 0px;
-    top: 3721px;
+    top: 500px;
     
     background: #171717;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .foot-right{
